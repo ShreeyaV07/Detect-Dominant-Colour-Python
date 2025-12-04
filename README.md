@@ -1,6 +1,6 @@
 # Detect-Dominant-Colour-Python
 
-# 1. Project Overview
+# Project Overview
 This project performs a complete color analysis on an input image using Python. It extracts the dominant color, generates a 5-color palette using K-Means clustering, computes HSV statistics, and plots RGB histograms for visualisation.
 
 The output includes:-
@@ -13,15 +13,20 @@ RGB histograms
 
 Image preview and color swatches
 
-# 2. Features
-Extract dominant color from any image,
- generate K-Means based 5-color palette,
- convert image between BGR, RGB, and HSV formats, 
- display HSV statistics, 
- plot RGB histograms, 
- visual layout with all results shown cleanly.
+# Features
+Extract dominant color from any image
 
-# 3. Approach / Methodology
+Generate K-Means based 5-color palette
+
+Convert image between BGR, RGB, and HSV formats
+
+Display HSV statistics
+
+Plot RGB histograms
+
+Visual layout with all results shown cleanly.
+
+# Approach / Methodology
 Preprocess and resize the input image for faster computation
 
 Convert image across BGR → RGB → HSV for analysis
@@ -36,7 +41,7 @@ Plot RGB intensity histograms,
 
 Display results in clear visual format.
 
-# 4. Data Structures Used
+# Data Structures Used
 NumPy Arrays – image matrices, reshaping, calculations.
 
 Counter – finding most frequent RGB color
@@ -45,7 +50,7 @@ Dictionary – (earlier used) mapping colors
 
 KMeans – generating clusters for palette
 
-# 5. Project Files
+# Project Files
 
 🔹 1. Source Code  
 [lol,py.py](lol,py.py)
@@ -53,7 +58,7 @@ KMeans – generating clusters for palette
 🔹 2. Sample Output Screenshot 
  ![Sample Output](image.png)
 
-# 6. Requirements
+# Requirements
 
 opencv-python
 
@@ -66,7 +71,7 @@ webcolors
 scikit-learn
 
 
-# 7. Challenges Faced
+# Challenges Faced
 
 Incorrect or invalid image paths
 
@@ -76,7 +81,7 @@ Matching RGB values to closest CSS3 color name
 
 Slow runtime for large images (fixed using resizing)
 
-# 8. Scope for improvements
+# Scope for improvements
 
 Add an option to save output plots as image files.
 
@@ -90,6 +95,6 @@ Allow users to choose different clustering algorithms (Mean-Shift, DBSCAN).
 
 Add contrast, brightness, and saturation analysis.
 
-# 9. Acknowledgement
-
-This project was developed as a key learning component, marking a significant start in my development skills. I conducted substantial research and some ai assistance for conceptual clarifications and generating initial code structures.
+# Acknowledgement
+This project was developed as a key learning component, marking a significant start in my development skills.
+I conducted substantial research and some AI assistance for conceptual clarifications and generating initial code structures.
