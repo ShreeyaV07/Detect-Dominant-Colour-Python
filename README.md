@@ -51,7 +51,7 @@ KMeans – generating clusters for palette
 [lol,py.py](lol,py.py)
 
 🔹 2. Sample Output Screenshot 
- ![Sample Output](C:\Users\shreeya\OneDrive\Pictures\Screenshots\Screenshot 2025-12-04 162045.png)
+ ![Sample Output](Screenshot_2025-12-04_162045.png)
 
 # 6. Challenges Faced
 Incorrect or invalid image paths
