@@ -53,7 +53,21 @@ KMeans – generating clusters for palette
 🔹 2. Sample Output Screenshot 
  ![Sample Output](image.png)
 
-# 6. Challenges Faced
+# 6. Requirements
+
+opencv-python
+
+numpy
+
+matplotlib
+
+webcolors
+
+scikit-learn
+
+
+# 7. Challenges Faced
+
 Incorrect or invalid image paths
 
 BGR vs RGB confusion (OpenCV loads BGR by default)
@@ -61,3 +75,21 @@ BGR vs RGB confusion (OpenCV loads BGR by default)
 Matching RGB values to closest CSS3 color name
 
 Slow runtime for large images (fixed using resizing)
+
+# 8. Scope for improvements
+
+Add an option to save output plots as image files.
+
+Integrate GUI using Tkinter or PyQt for easier usage.
+
+Add support for extracting the top N dominant colours instead of only one.
+
+Improve the closest colour matching using CIEDE2000 instead of Euclidean RGB distance.
+
+Allow users to choose different clustering algorithms (Mean-Shift, DBSCAN).
+
+Add contrast, brightness, and saturation analysis.
+
+# 9. Acknowledgement
+
+This project was developed as a key learning component, marking a significant start in my development skills. I conducted substantial research and some ai assistance for conceptual clarifications and generating initial code structures.
