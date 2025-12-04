@@ -50,8 +50,7 @@ KMeans – generating clusters for palette
 🔹 1. Source Code  
 [lol,py.py](lol,py.py)
 
-### 🔹 2. Sample Output Screenshot  
-![Sample Output](Screenshot_2025-12-01_162045.png)
+### 🔹 2. Sample Output Screenshot [Sample Output](Screenshot_2025-12-01_162045.png)
 
 # 6. Challenges Faced
 Incorrect or invalid image paths
